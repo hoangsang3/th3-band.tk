@@ -184,6 +184,44 @@
         display: block;
         width: 93.83px;
     }
+    
+        .ticket-orders-headings {
+        padding: 16px 8px;
+        height: 100px;
+        width: 900px;
+    }
+
+    .btn-fa-check {
+        padding: 8px;
+    }
+
+    .btn-fa-ban {
+        padding: 8px 16px;
+    }
+
+    .ticket-orders-heading {
+        transform: translate(-69%, 0);
+    }
+
+    .fa-suitcase:before {
+        left: -16px;
+        position: inherit;
+    }
+
+    #ticket-orders {
+        animation-name: Scroll-top-mid-mobile, Scroll-mid-top-mobile !important;
+    }
+}
+
+@keyframes Scroll-top-mid-mobile {
+    100% {
+        margin-top: 146px;
+    }
+}
+@keyframes Scroll-mid-top-mobile {
+    100% {
+        margin-top: 46px;
+    }
 }
 
 @media (width: 414px) {
