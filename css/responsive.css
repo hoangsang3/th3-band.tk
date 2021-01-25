@@ -215,12 +215,12 @@
 
 @keyframes Scroll-top-mid-mobile {
     100% {
-        margin-top: 146px;
+        margin-top: calc(56px * 0);
     }
 }
 @keyframes Scroll-mid-top-mobile {
     100% {
-        margin-top: 46px;
+        margin-top: 56px;
     }
 }
 
