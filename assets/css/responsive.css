@@ -283,3 +283,17 @@
         left: 50% !important;
     }
 }
+
+@media (min-width: 865px) and (max-width: 1025px) {
+    .ticket-place {
+        width: calc(96.7% / 3) !important;
+        transform: translate(-11.7%, 0) !important;
+    }
+}
+
+@media (min-width: 865px) and (max-width: 924px) {
+    .ticket-place {
+        width: calc(90.7% / 3) !important;
+        transform: translate(-1.7%, 0) !important;
+    }
+}
