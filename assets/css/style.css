@@ -459,6 +459,12 @@ hr {
     color: black;
 }
 
+.call-phone,
+.send-message {
+    text-decoration: none;
+    color: rgb(131, 7, 7);
+}
+
 #img-map {
     display: block;
     background-size: cover;
