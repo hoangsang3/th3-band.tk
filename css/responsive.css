@@ -211,6 +211,22 @@
     #ticket-orders {
         animation-name: Scroll-top-mid-mobile, Scroll-mid-top-mobile !important;
     }
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    #contact-input {
+        display: block;
+    }
+
+    #btn-send {
+        margin-top: 32px;
+    }
+
+    .contact-input-inline {
+        margin-bottom: 10px;
+    }
 }
 
 @keyframes Scroll-top-mid-mobile {
