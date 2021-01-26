@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/style.css" />
-        <link rel="stylesheet" href="./css/buy-ticket.css" />
-        <link rel="stylesheet" href="./css/responsive.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/buy-ticket.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
         <link
             rel="stylesheet"
             href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
@@ -28,7 +28,9 @@
             <div id="header">
                 <ul id="nav">
                     <!-- phần nav bên trái -->
-                    <li id="li-nav-home"><a href="#" id="nav-home">Home</a></li>
+                    <li id="li-nav-home">
+                        <a href="#slider" id="nav-home">Home</a>
+                    </li>
                     <li><a href="#band" id="nav-band">Band</a></li>
                     <li><a href="#tour" id="nav-tour">Tour</a></li>
                     <li><a href="#contact" id="nav-contact">Contact</a></li>
@@ -64,7 +66,7 @@
             <div id="slider">
                 <div id="slider-new-york" class="slider-animation">
                     <img
-                        src="./img/slider/new-york.jpg"
+                        src="./assets/img/slider/new-york.jpg"
                         class="img-content"
                         alt="New York"
                     />
@@ -76,7 +78,7 @@
 
                 <div id="slider-chicago" class="slider-animation">
                     <img
-                        src="./img/slider/chicago.jpg"
+                        src="./assets/img/slider/chicago.jpg"
                         class="img-content"
                         alt="Chicago"
                     />
@@ -88,7 +90,7 @@
 
                 <div id="slider-los-angeles" class="slider-animation">
                     <img
-                        src="./img/slider/los-angeles.jpg"
+                        src="./assets/img/slider/los-angeles.jpg"
                         class="img-content"
                         alt="Los Angeles"
                     />
@@ -127,7 +129,7 @@
                         <div id="about-band-member">
                             <p id="about-band-member-name">Name</p>
                             <img
-                                src="./img/member/bandmember.jpg"
+                                src="./assets/img/member/bandmember.jpg"
                                 id="about-band-member-img"
                                 class="about-band-member-img"
                                 alt="Band Member"
@@ -136,7 +138,7 @@
                         <div id="about-band-member">
                             <p id="about-band-member-name">Name</p>
                             <img
-                                src="./img/member/bandmember.jpg"
+                                src="./assets/img/member/bandmember.jpg"
                                 id="about-band-member-img"
                                 class="about-band-member-img"
                                 alt="Band Member"
@@ -145,7 +147,7 @@
                         <div id="about-band-member">
                             <p id="about-band-member-name">Name</p>
                             <img
-                                src="./img/member/bandmember.jpg"
+                                src="./assets/img/member/bandmember.jpg"
                                 id="about-band-member-img"
                                 class="about-band-member-img"
                                 alt="Band Member"
@@ -188,7 +190,7 @@
                     <div class="ticket-list">
                         <div class="ticket-place">
                             <img
-                                src="./img/tour-img/newyork.jpg"
+                                src="./assets/img/tour-img/newyork.jpg"
                                 class="ticket-place-img"
                                 alt="New York"
                             />
@@ -200,7 +202,7 @@
                                     vitae justo.
                                 </p>
                                 <button
-                                    class="btn-buy-ticket border-none"
+                                    class="btn-buy-ticket border-none s-full-width"
                                     onClick="BuyTicket()"
                                 >
                                     Buy Tickets
@@ -210,7 +212,7 @@
 
                         <div class="ticket-place">
                             <img
-                                src="./img/tour-img/paris.jpg"
+                                src="./assets/img/tour-img/paris.jpg"
                                 class="ticket-place-img"
                                 alt="Paris"
                             />
@@ -222,7 +224,7 @@
                                     vitae justo.
                                 </p>
                                 <button
-                                    class="btn-buy-ticket border-none"
+                                    class="btn-buy-ticket border-none s-full-width"
                                     onClick="BuyTicket()"
                                 >
                                     Buy Tickets
@@ -232,7 +234,7 @@
 
                         <div class="ticket-place">
                             <img
-                                src="./img/tour-img/sanfran.jpg"
+                                src="./assets/img/tour-img/sanfran.jpg"
                                 class="ticket-place-img"
                                 alt="San Francisco"
                             />
@@ -246,7 +248,7 @@
                                     vitae justo.
                                 </p>
                                 <button
-                                    class="btn-buy-ticket border-none"
+                                    class="btn-buy-ticket border-none s-full-width"
                                     onClick="BuyTicket()"
                                 >
                                     Buy Tickets
@@ -288,7 +290,9 @@
                         </div>
 
                         <div class="ticket-orders-content-input">
-                            <div class="ticket-orders-content-description">
+                            <div
+                                class="ticket-orders-content-description s-full-width"
+                            >
                                 <i class="fa fa-user"></i>
                                 Send To
                             </div>
@@ -365,7 +369,7 @@
                             />
                             <button
                                 id="btn-send"
-                                class="border-none"
+                                class="border-none s-full-width"
                                 type="submit"
                             >
                                 SEND
@@ -377,7 +381,7 @@
             </div>
             <!-- End Content -->
 
-            <img src="./img/map.jpg" alt="Map" id="img-map" />
+            <img src="./assets/img/map.jpg" alt="Map" id="img-map" />
 
             <!-- Begin footer -->
             <footer id="footer">
@@ -394,8 +398,8 @@
         </div>
     </body>
 
-    <script src="./js/index.js"></script>
-    <script src="./js/buy-ticket.js"></script>
-    <script src="./js/btn-send.js"></script>
-    <script src="./js/scroll-top-mid.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/buy-ticket.js"></script>
+    <script src="./assets/js/btn-send.js"></script>
+    <script src="./assets/js/scroll-top-mid.js"></script>
 </html>
