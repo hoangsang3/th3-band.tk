@@ -20,6 +20,10 @@ body {
     }
 }
 
+#main{
+    scroll-behavior: smooth;
+}
+
 @keyframes ChangeOpacityBackOne {
     to {
         background-color: initial;
