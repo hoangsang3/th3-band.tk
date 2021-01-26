@@ -134,10 +134,12 @@
     .ticket-orders-headings {
         max-width: 355px;
     }
+
     .ticket-orders-content-input-info,
     .btn-fa-check {
         max-width: 305px;
     }
+
     .fa-suitcase {
         left: 24%;
     }
@@ -252,5 +254,32 @@
     .ticket-place {
         justify-items: left;
         transform: translate(54%, 0);
+    }
+}
+
+@media (width: 736px) {
+    .ticket-place {
+        width: 87.6% !important;
+        transform: translate(7%, 0) !important;
+    }
+}
+
+@media (width: 667px) {
+    .ticket-place {
+        width: 79.3% !important;
+        transform: translate(13%, 0) !important;
+    }
+}
+
+@media (width: 812px) {
+    .ticket-place {
+        width: 256.7px;
+        transform: translate(0.9%, 0) !important;
+    }
+
+    #tour-list-items {
+        max-width: 93% !important;
+        transform: translate(-52.5%, 0) !important;
+        left: 50% !important;
     }
 }
