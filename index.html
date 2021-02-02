@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/buy-ticket.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+        <link rel="stylesheet" href="/bower_components/lato-font/css/lato-font.css" />
+        <link rel="shortcut icon" href="https://img.icons8.com/wired/64/000000/rock-music.png" type="image/x-icon" />
+        <title>The Band</title>
+    </head>
+
+    <body id="body">
+        <div id="main">
+            <!-- Begin Header -->
+            <div id="header">
+                <ul id="nav">
+                    <!-- phần nav bên trái -->
+                    <li id="li-nav-home">
+                        <a href="#slider" id="nav-home">Home</a>
+                    </li>
+                    <li><a href="#band" id="nav-band">Band</a></li>
+                    <li><a href="#tour" id="nav-tour">Tour</a></li>
+                    <li><a href="#contact" id="nav-contact">Contact</a></li>
+                    <li>
+                        <a href="#img-map" id="nav-more"
+                            >More
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <!-- 3 element con của More -->
+                        <ul class="sub-nav">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media </a></li>
+                        </ul>
+                    </li>
+                    <!-- phần nav bên phải -->
+                    <li id="li-fa-search">
+                        <a href="#" id="nav-search"><i class="fa fa-search"></i></a>
+                    </li>
+
+                    <li id="li-fa-bars" style="display: none">
+                        <a href="#" id="nav-bars">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Header -->
+
+            <!-- Begin Slider -->
+            <div id="slider">
+                <div id="slider-new-york" class="slider-animation">
+                    <img src="./assets/img/slider/new-york.jpg" class="img-content" alt="New York" />
+                    <h3 class="heading">New York</h3>
+                    <p class="text-description">The atmosphere in New York is lorem ipsum.</p>
+                </div>
+
+                <div id="slider-chicago" class="slider-animation">
+                    <img src="./assets/img/slider/chicago.jpg" class="img-content" alt="Chicago" />
+                    <h3 class="heading">Chicago</h3>
+                    <p class="text-description">Thank you, Chicago - A night we won't forget.</p>
+                </div>
+
+                <div id="slider-los-angeles" class="slider-animation">
+                    <img src="./assets/img/slider/los-angeles.jpg" class="img-content" alt="Los Angeles" />
+                    <h3 class="heading">Los Angeles</h3>
+                    <p class="text-description">We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+            <!-- End Slider -->
+
+            <!-- Begin Content -->
+            <div id="content">
+                <!-- Begin Band -->
+                <div id="band">
+                    <h2 class="content-heading">The Band</h2>
+                    <p class="content-sub-heading">We love music</p>
+                    <p id="content-about">
+                        We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div id="about-band-member-content">
+                        <!-- About -->
+                        <div id="about-band-member">
+                            <p id="about-band-member-name">Name</p>
+                            <img
+                                src="./assets/img/member/bandmember.jpg"
+                                id="about-band-member-img"
+                                class="about-band-member-img"
+                                alt="Band Member"
+                            />
+                        </div>
+                        <div id="about-band-member">
+                            <p id="about-band-member-name">Name</p>
+                            <img
+                                src="./assets/img/member/bandmember.jpg"
+                                id="about-band-member-img"
+                                class="about-band-member-img"
+                                alt="Band Member"
+                            />
+                        </div>
+                        <div id="about-band-member">
+                            <p id="about-band-member-name">Name</p>
+                            <img
+                                src="./assets/img/member/bandmember.jpg"
+                                id="about-band-member-img"
+                                class="about-band-member-img"
+                                alt="Band Member"
+                            />
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <!-- End Band -->
+
+                <!-- Begin Tour -->
+                <div id="tour">
+                    <!-- ticket list -->
+                    <div class="tour-heading-and-sub-heading">
+                        <h2 class="content-heading tour-heading">Tour Date</h2>
+                        <p class="content-sub-heading tour-sub-heading">Remember to book your tickets!</p>
+
+                        <ul id="tour-list-items">
+                            <li class="tour-li">
+                                September
+                                <span id="sold-out" class="sold-out">Sold out</span>
+                            </li>
+                            <li class="tour-li">
+                                October
+                                <span id="sold-out" class="sold-out">Sold out</span>
+                            </li>
+                            <li class="tour-li">November <span id="quality">3</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- ticket list -->
+                    <div class="ticket-list">
+                        <div class="ticket-place">
+                            <img src="./assets/img/tour-img/newyork.jpg" class="ticket-place-img" alt="New York" />
+                            <div class="ticket-place-body">
+                                <p class="place-heading"><b>New York</b></p>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn-buy-ticket border-none s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="ticket-place">
+                            <img src="./assets/img/tour-img/paris.jpg" class="ticket-place-img" alt="Paris" />
+                            <div class="ticket-place-body">
+                                <p class="place-heading"><b>Paris</b></p>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn-buy-ticket border-none s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="ticket-place">
+                            <img src="./assets/img/tour-img/sanfran.jpg" class="ticket-place-img" alt="San Francisco" />
+                            <div class="ticket-place-body">
+                                <p class="place-heading">
+                                    <b>San Francisco </b>
+                                </p>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn-buy-ticket border-none s-full-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <!-- End Tour -->
+
+                <!-- Begin Ticket Orders -->
+                <div class="modal" id="modal">
+                    <div class="modal__body">
+                        <div id="ticket-orders">
+                            <div id="ticket-order-header">
+                                <div class="ticket-orders-headings">
+                                    <i class="fa fa-suitcase"> </i>
+                                    <h2 class="ticket-orders-heading">Tickets</h2>
+                                    <i
+                                        class="fas fa-times hide-animation"
+                                        id="hide-animation"
+                                        class="hide-animation"
+                                    ></i>
+                                </div>
+                            </div>
+
+                            <div class="ticket-orders-content">
+                                <div class="ticket-orders-content-input">
+                                    <div class="ticket-orders-content-description">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        Tickets, $15 per person
+                                    </div>
+                                    <br />
+                                    <input
+                                        type="text"
+                                        class="ticket-orders-content-input-info"
+                                        placeholder="How many?"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="ticket-orders-content-input">
+                                    <div class="ticket-orders-content-description s-full-width">
+                                        <i class="fa fa-user"></i>
+                                        Send To
+                                    </div>
+                                    <br />
+                                    <input
+                                        type="email"
+                                        class="ticket-orders-content-input-info"
+                                        placeholder="Enter email"
+                                        required
+                                    />
+                                </div>
+
+                                <button
+                                    class="btn-fa-check hide-animation border-none"
+                                    id="hide-animation"
+                                    class="hide-animation"
+                                >
+                                    PAY <i class="fa fa-check"></i>
+                                </button>
+
+                                <button
+                                    class="btn-fa-ban hide-animation border-none"
+                                    id="hide-animation"
+                                    class="hide-animation"
+                                >
+                                    Close <i class="fa fa-ban"></i>
+                                </button>
+
+                                <p id="text-support">
+                                    Need
+                                    <a href="#" id="text-support-link">help?</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Ticket Orders -->
+
+                <!-- Begin Contact -->
+                <div id="contact">
+                    <h2 class="content-heading tour-heading">Contact</h2>
+                    <p class="content-sub-heading tour-sub-heading">Fan? Drop a note!</p>
+
+                    <div id="contact-info-and-input">
+                        <address id="contact-info">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Chicago, US
+                            <br />
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:0776689228" class="call-phone">0776689228</a>
+                            <br />
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:hoangsang.nguyen2001a@gmail.com" class="send-message"
+                                >hoangsang.nguyen2001a@gmail.com</a
+                            >
+                        </address>
+                        <form id="contact-input">
+                            <input
+                                type="text"
+                                class="contact-input-inline"
+                                id="contact-input-inlinecontact-input-inline"
+                                placeholder="Name"
+                                required
+                            />
+
+                            <input
+                                type="text"
+                                class="contact-input-inline"
+                                id="contact-input-inline"
+                                placeholder="Email"
+                                required
+                            />
+
+                            <input
+                                type="text"
+                                class="contact-input-block"
+                                id="contact-input-block"
+                                placeholder="Message"
+                                required
+                            />
+                            <button id="btn-send" class="border-none s-full-width" type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- End Contact -->
+            </div>
+            <!-- End Content -->
+
+            <img src="./assets/img/map.jpg" alt="Map" id="img-map" />
+
+            <!-- Begin footer -->
+            <footer id="footer">
+                <i class="fab fa-facebook-f footer-fab"></i>
+                <i class="fab fa-instagram footer-fab"></i>
+                <i class="fab fa-snapchat footer-fab"></i>
+                <i class="fab fa-twitter footer-fab"></i>
+                <i class="fab fa-linkedin-in footer-fab"></i>
+                <p id="text-footer">Powered by <a href="#" id="footer-link">w3.css</a></p>
+            </footer>
+            <!-- End footer -->
+        </div>
+    </body>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/buy-ticket.js"></script>
+    <script src="./assets/js/btn-send.js"></script>
+    <script src="./assets/js/scroll-top-mid.js"></script>
+</html>

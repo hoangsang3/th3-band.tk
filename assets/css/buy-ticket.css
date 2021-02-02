@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(../lato/Lato-Regular.ttf);
+    font-family: Lato-Regular;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 300000;
+    display: none;
+}
+
+#ticket-orders {
+    width: 900px;
+    max-height: 100%;
+    color: black;
+    box-shadow: 1px 3px 10px 10px black;
+    position: fixed;
+    display: inline-block;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    animation-name: "";
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    z-index: 5;
+}
+
+@keyframes Scroll-top-mid {
+    0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: 146px;
+    }
+}
+
+@keyframes Scroll-mid-top {
+    0% {
+        margin-top: 146px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.ticket-orders-headings {
+    background-color: #009688;
+    color: white;
+    padding: 32px 16px;
+    height: 129px;
+    width: 900px;
+}
+
+#ticket-order-header {
+    width: 900px;
+    position: relative;
+}
+
+.fa-suitcase {
+    font-size: 35px;
+    left: 40%;
+    position: relative;
+}
+
+.ticket-orders-heading {
+    font-family: "Segoe UI", Arial, sans-serif, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+    display: inline-block;
+    position: relative;
+    line-height: 45px;
+    margin: 10px 0 0 10px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 40px;
+}
+
+.fa-times {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.fa-times:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+.ticket-orders-content {
+    padding: 0.15px 16px;
+    background-color: white;
+}
+
+.ticket-orders-content-description {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ticket-orders-content-input-info {
+    padding: 8px;
+    width: 850px;
+    height: 40px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.btn-fa-check {
+    margin: 16px 0;
+    padding: 16px;
+    width: 850px;
+    background-color: #009688;
+    border: none;
+    color: white;
+    cursor: pointer;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.btn-fa-check:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+.btn-fa-ban {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 16px;
+    margin: 16px 0;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.btn-fa-ban:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+#text-support {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+    top: 0;
+    bottom: 0;
+}
+
+#text-support-link {
+    color: #2196f3;
+    font-weight: 600;
+}
